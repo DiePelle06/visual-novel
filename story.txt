@@ -1,0 +1,26 @@
+-------------umano
+mezz'elfo
+-------------elfo
+-------------dragonide
+nano
+(sfondo)
+[contesto]
+"suono o onomatopee da riempire"
+{personaggi}
+!!!scelte!!!
+...azione...
+
+
+inizio:
+(in una stanza della locanda)
+[in missione]
+d: "sbadiglio" ho dormito proprio bene
+d: ma ora devo andare 
+
+(reception locanda)
+{bancone}
+{locandiere}
+l: salve gentil cliente 
+l: ha gradito la sua stanza?
+d: si, ho dormito molto bene
+d: grazie a rivederci

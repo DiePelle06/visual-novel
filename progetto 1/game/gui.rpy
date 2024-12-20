@@ -28,7 +28,7 @@ define config.check_conflicting_properties = True
 
 ## Un colore di risalto usato nell'interfaccia per le etichette e il testo in
 ## evidenza.
-define gui.accent_color = '#0066cc'
+define gui.accent_color = '#ffffff'
 
 ## Il colore usato per il testo di un pulsante quando non è nè selezionato nè
 ## sotto il puntatore.
@@ -93,8 +93,8 @@ define gui.title_text_size = 75
 ## Menu - Main e Game ##########################################################
 
 ## Le immagini usate per i menu Main e Game.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/pianura.jpg"
+define gui.game_menu_background = "gui/pianura.jpg"
 
 
 ## Dialogo #####################################################################

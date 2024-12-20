@@ -2,34 +2,45 @@
 
 #  Dichiara i personaggi usati in questo gioco. L'argomento 'color' colora il nome del personaggio.
 
-define e = Character("Eileen", color="#f44")
+define m = Character("--------", color="#0000ff")
+define l = Character("locondiere", color="#ffff00")
+
+define fadehold = Fade(0.5, 1.0, 0.5) #quanto ci mette a diventare nero, quanto resta nero, quanto ci mette a tornare come prima
 
 
 # Il gioco comincia qui.
 
 label start:
 
-    # Mostra uno sfondo. Al momento mostra una sagoma generica, ma puoi
-    # aggiungere un file (chiamato "bg room.png" oppure "bg room.jpg")
-    # alla directory 'images' per cambiarla.
+    scene black
 
-    scene bg room
-
-    # Mostra lo sprite di un personaggio.
-    # Al momento mostra una sagoma generica, ma puoi aggiungere un file
-    # (chiamato "eileen_happy.png") alla directory 'images' per cambiarla.
-
-    show eileen happy
-
-    # Questo mostra linee di dialogo.
-
-    "Funziona davvero!"
-
-    e "Hai creato un nuovo gioco Ren'Py."
-
-    e "Quando aggiungerai una storia, immagini e musica, potrai distribuirlo nel mondo!"
-
-    # Questo termina il gioco.
+    scene camera_locanda with fadehold
+    scene camera_locanda with fadehold
+    scene camera_locanda
+    
+    m "Yaaaaaaaawh"
+    
+    m "ho dormito proprio bene"
+    
+    show dragonide_in_piedi
+    with fade
+    
+    m "ma ora devo andare"
+    
+    scene locanda_del_medioevo with fade
+    
+    show locandiere 
+    show bancone 
+    
+    l "salve gentil cliente "
+    
+    l "ha gradito la sua stanza?"
+    
+    show dragonide_in_piedi at left 
+    
+    m "si, ho dormito molto bene"
+    
+    m "grazie a rivederci"
 
     return
 
