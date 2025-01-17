@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 86: end of line expected.
-    show dragonide_in_piedi at left with fade and umano_in_piedi at right with fade
-                                                                 ^
+File "game/script.rpy", line 206: expected menuitem
+    $vitaPro = vitaPro - mostroDanno1
+    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Jan 10 15:54:26 2025
+Fri Jan 17 16:21:55 2025
